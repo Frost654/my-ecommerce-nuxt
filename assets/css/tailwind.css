@@ -1,0 +1,46 @@
+/* assets/css/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.displayFiltersWithSpace{
+    display: flex;
+    justify-content: space-between;
+}
+.text-blue-500{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+.display-wrapped{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 16px; 
+}
+button:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
